@@ -1,0 +1,46 @@
+.game-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 3rem;
+}
+.score-board {
+  font-size: 1.3rem;
+}
+
+.card-wrapper {
+  width: 280px;
+  height: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #cfcece;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card-img {
+  width: 80%;
+  margin: 2em auto 1em;
+}
+.card-img img {
+  width: 100%;
+  border: 1px solid aliceblue;
+  border-radius: 8px;
+}
+
+.card-name {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-name p {
+  margin: 0;
+}
