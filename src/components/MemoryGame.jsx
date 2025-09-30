@@ -71,6 +71,10 @@ export default function MemoryGame() {
         </div>
       </div>
 
+      <section className="instruction">
+        <h2>Test your memory: avoid picking a card you’ve already seen!</h2>
+      </section>
+
       <div className="card-container">
         <AnimatePresence>
           {shuffled.map((pokemon) => {

@@ -12,6 +12,10 @@
   font-size: 1.3rem;
 }
 
+.instruction {
+  text-align: center;
+}
+
 .card-wrapper {
   width: 280px;
   height: 350px;
